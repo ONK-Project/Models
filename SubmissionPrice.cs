@@ -6,7 +6,7 @@ namespace Models
 {
     public class SubmissionPrice
     {
-        public double TotalCost;
-        public string Currency;
+        public double TotalCost { get; set; }
+        public string Currency { get; set; }
     }
 }
