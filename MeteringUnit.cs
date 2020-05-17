@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Models
 {
+    [Serializable]
     public class MeteringUnit
     {
         public long MeteringUnitId { get; set; }

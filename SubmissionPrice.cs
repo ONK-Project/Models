@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Models
 {
+    [Serializable]
     public class SubmissionPrice
     {
         public double TotalCost { get; set; }

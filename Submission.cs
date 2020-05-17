@@ -4,6 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Models
 {
+    [Serializable]
     public class Submission
     {
         [BsonId]
