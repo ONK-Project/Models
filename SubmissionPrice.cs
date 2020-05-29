@@ -5,6 +5,7 @@ using System.Text;
 namespace Models
 {
     [Serializable]
+    [Keyless]
     public class SubmissionPrice
     {
         public double TotalCost { get; set; }
