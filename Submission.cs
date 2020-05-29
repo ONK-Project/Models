@@ -8,7 +8,7 @@ namespace Models
     public class Submission
     {
         [BsonId]
-        public int SubmissionId { get; set; }
+        public ObjectId SubmissionId { get; set; }
         public MeteringUnit MeteringUnit { get; set; }
         public SubmissionPrice SubmissionPrice { get; set; }
         public DateTime DateTime { get; set; }
